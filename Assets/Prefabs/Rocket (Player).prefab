@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6968640cffc3d946b558337bf896484, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedValue: 800
+  speedValue: 900
   rotationValue: 200
   mainEngine: {fileID: 8300000, guid: bef59ef4a650a0149be4c083a6179566, type: 3}
   particlesMainThrust: {fileID: 7674654943614147272}
