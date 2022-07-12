@@ -53,9 +53,10 @@
     <UnityVersion>2020.3.8f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Oscillator.cs" />
     <Compile Include="Assets\Scripts\CollissionHandler.cs" />
     <Compile Include="Assets\Scripts\MovementHandler.cs" />
-    <Compile Include="Assets\Scripts\Oscillator.cs" />
+    <Compile Include="Assets\Scripts\Spinner.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
