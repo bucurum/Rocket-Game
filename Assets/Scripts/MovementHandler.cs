@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MovementHandler : MonoBehaviour
@@ -15,14 +13,12 @@ public class MovementHandler : MonoBehaviour
     Rigidbody rb;
     AudioSource audioSource;
 
-    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         ProcessForward();
@@ -101,7 +97,6 @@ public class MovementHandler : MonoBehaviour
         particlesLeftThrust.Stop();
         particlesRightThrust.Stop();
     }
-
 
     void ApplyRotation(float rotateThisFrame)
     {

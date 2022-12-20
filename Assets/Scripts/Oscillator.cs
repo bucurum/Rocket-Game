@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Oscillator : MonoBehaviour
@@ -10,15 +8,11 @@ public class Oscillator : MonoBehaviour
 
     float movementFactor;
 
-    
-
-    // Start is called before the first frame update
     void Start()
     {
         startingPosition = transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         NewMethod();
@@ -42,7 +36,5 @@ public class Oscillator : MonoBehaviour
         {
             return;
         }
-       
-
     }
 }

@@ -1,4 +1,3 @@
-
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -11,7 +10,6 @@ public class CollissionHandler : MonoBehaviour
 
     [SerializeField] ParticleSystem deathPartical;
     [SerializeField] ParticleSystem successPartical;
-
 
     AudioSource audioSource;
 
@@ -75,8 +73,6 @@ public class CollissionHandler : MonoBehaviour
             yield return new WaitForSecondsRealtime(waitForSecond);
             LoadNextLevel();
         }
-
-
 
         IEnumerator CrashSequence()
         {
